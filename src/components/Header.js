@@ -6,6 +6,7 @@ const Header = () => {
   return (
     <header className="header">
       <section>
+        {/* header texts */}
         <div className="banner">
           <h2>Little Lemon</h2>
           <h3>Chicago</h3>
@@ -17,6 +18,8 @@ const Header = () => {
             <button aria-label="On Click">Reserve Table</button>
           </Link>
         </div>
+
+        {/* header images */}
         <div className="banner-img">
           <img src={bannerImg} alt="" />
         </div>
